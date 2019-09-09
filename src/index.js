@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import  ShoppingList  from './shopping'
+import Example from './Example/example'
 // class Square extends React.Component {
   // constructor(props){
   //   super(props)
@@ -177,6 +178,6 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <Game />,
+  <Example />,
   document.getElementById('root')
 );
